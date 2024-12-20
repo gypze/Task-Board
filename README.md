@@ -24,6 +24,7 @@ I am passionate about continuous learning and dedicated to staying on top of evo
 - LocalStorage - To save tasks and their progress states.
 
 
+
 ## License
 
 
