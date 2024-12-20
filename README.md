@@ -22,6 +22,8 @@ I am passionate about continuous learning and dedicated to staying on top of evo
 - Day.js - For date handling and deadline tracking.
 
 - LocalStorage - To save tasks and their progress states.
+
+
 ## License
 
 
