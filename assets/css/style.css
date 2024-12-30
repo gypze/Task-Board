@@ -25,7 +25,7 @@ body {
   background-color: #ffc107 !important;
 }
 
-.ui-draggable-dragging {
-  z-index: 1000; /* Ensure the dragged element is on top */
-  opacity: 0.8;  /* Slightly transparent for better visibility */
-}
+/* .ui-draggable-dragging {
+ /* z-index: 1000; /* Ensure the dragged element is on top */
+ /* opacity: 0.8;  /* Slightly transparent for better visibility */
+/*}

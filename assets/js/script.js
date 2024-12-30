@@ -126,7 +126,7 @@ function handleDrop(event, ui) {
     }
   });
 
-  $(this).append(card);
+  $(this).find('.card-container').append(card); // Append to the card-container
   card.css({ top: 0, left: 0 }); // Reset the position of the card
   localStorage.setItem('tasks', JSON.stringify(taskList)); // Save updated task list to localStorage
 }
@@ -135,7 +135,7 @@ function handleDrop(event, ui) {
 $(document).ready(function () {
   renderTaskList();
 
-  $('#task-form').on('submit', handleAddTask);
+  $('#task-form').on('submit', handleAddTask); // Add event listener for form submission
   $(document).on('click', '.delete-task', handleDeleteTask); // Revert to using event delegation
 
   $('.lane').droppable({
