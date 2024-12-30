@@ -9,16 +9,23 @@ body {
 
 .task-card {
   margin: 0 auto;
+  cursor: move; /* Show move cursor to indicate draggable */
 }
 
 .task-card:hover {
   cursor: grab;
 }
 
+/* Color coding for overdue and due today tasks */
 .bg-danger {
-  background-color: red !important;
+  background-color: #dc3545 !important;
 }
 
 .bg-warning {
-  background-color: yellow !important;
+  background-color: #ffc107 !important;
+}
+
+.ui-draggable-dragging {
+  z-index: 1000; /* Ensure the dragged element is on top */
+  opacity: 0.8;  /* Slightly transparent for better visibility */
 }
